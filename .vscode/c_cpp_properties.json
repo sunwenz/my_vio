@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "includePath": [
+                "/usr/include/**",
+                "/usr/include/eigen3/",
+                "/usr/local/include/opencv4/opencv2",
+                "/usr/local/include/opencv4",
+                "${workspaceFolder}/include/"
+            ],
+            "name": "Linux",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
