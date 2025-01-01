@@ -60,15 +60,15 @@ include CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/test/test_main.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/test/test_main.cpp.o: ../test/test_main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sunwenz/Code/my_vio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/test/test_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test/test_main.cpp.o -c /home/sunwenz/Code/my_vio/test/test_main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test/test_main.cpp.o -c /home/sunwenz/Code/my_vio/test/test_main.cpp
 
 CMakeFiles/test.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test/test_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunwenz/Code/my_vio/test/test_main.cpp > CMakeFiles/test.dir/test/test_main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sunwenz/Code/my_vio/test/test_main.cpp > CMakeFiles/test.dir/test/test_main.cpp.i
 
 CMakeFiles/test.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test/test_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunwenz/Code/my_vio/test/test_main.cpp -o CMakeFiles/test.dir/test/test_main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sunwenz/Code/my_vio/test/test_main.cpp -o CMakeFiles/test.dir/test/test_main.cpp.s
 
 # Object files for target test
 test_OBJECTS = \

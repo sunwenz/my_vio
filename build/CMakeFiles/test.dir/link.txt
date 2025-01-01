@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -O3 -g -O0 -g  -rdynamic CMakeFiles/test.dir/test/test_main.cpp.o  -o ../bin/test 
+/usr/bin/g++   -Wall -O3 -g -O0 -g  -rdynamic CMakeFiles/test.dir/test/test_main.cpp.o  -o ../bin/test 
