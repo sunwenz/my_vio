@@ -92,5 +92,7 @@
         "comments": false,
         "strings": false
     },
-    "editor.suggest.snippetsPreventQuickSuggestions": false
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 4, BreakBeforeBraces: Attach}"
+
 }
