@@ -4,7 +4,6 @@
 #include "common/type.h"
 #include "frontend.h"
 #include "map.h"
-#include "frame.h"
 
 class Vio{
 public:
@@ -19,9 +18,4 @@ private:
     Frontend::Ptr frontend_;   
     
     Map::Ptr map_;    
-
-    std::queue<Imu> imu_buf_;
-
-    size_t num_of_image_;
-    std::queue<Frame::Ptr> img_buf_;
 };

@@ -22,6 +22,5 @@ private:
 
     std::queue<Imu> imu_buf_;
 
-    size_t num_of_image_;
     std::queue<Frame::Ptr> img_buf_;
 };

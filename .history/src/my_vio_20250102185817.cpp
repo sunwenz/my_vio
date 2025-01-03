@@ -20,6 +20,6 @@ Vio::addNewImage(double t, const cv::Mat& img_left, const cv::Mat& img_right){
     Frame::Ptr new_frame = Frame::createFrame(t, img_left, img_right);
 
     // step 3. frontend track image
-    
+
 }
 

@@ -12,10 +12,5 @@ public:
     Frontend();
 
 private:
-    double timestamp_;
-    cv::Mat img_left_, img_right_;
-    cv::Mat img_left_pre_, img_right_pre_;
-    size_t rows_, cols_;
-
     
 };
