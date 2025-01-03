@@ -5,7 +5,7 @@ Vio::Vio(const std::string& congfig_file){
 }
 
 void Vio::addNewImage(double t, const cv::Mat& img_left, const cv::Mat& img_right){
-    num_of_image_++;
+    num_of_image_++;;sasfW
 
     // step 1. preprofcess img
     if(img_left.channels() == 3){

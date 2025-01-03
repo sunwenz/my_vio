@@ -9,6 +9,8 @@ Frame::Ptr Fronted::trackImage(double t, const cv::Mat& img_left, const cv::Mat&
     rows_ = img_left.rows;
     cols_ = img_left.cols;
 
+    cv::calcOpticalFlowPyrLK(img_left_pre_, img_left_, prev_pts_, cur_pts_, status_, err_);
 
+    
     return nullptr;
 }

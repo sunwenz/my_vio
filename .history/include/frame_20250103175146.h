@@ -2,7 +2,7 @@
 
 #include "common/commonInclude.h"
 #include "feature.h"
-#include "camera.h"
+
 
 class Frame{
 public:

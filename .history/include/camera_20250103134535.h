@@ -19,7 +19,7 @@ public:
     static Camera::Ptr createCamera(const std::vector<double> &intrinsic, const std::vector<double> &distortion,
                                     const std::vector<int> &size);
 
-    const Mat &cameraMatrix() const {
+    const Mat &cameraMatrix() {
         return intrinsic_;
     }
 

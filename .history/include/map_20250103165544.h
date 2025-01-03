@@ -1,8 +1,6 @@
 #pragma once
 
 #include "common/commonInclude.h"
-#include "frame.h"
-#include "feature.h"
 
 class Map{
 public:
@@ -12,15 +10,15 @@ public:
 
     Map(size_t size_of_sliding_window);
 
-    ~Map();
-
     size_t sizeOfSlidingWindow() const;
 
     void insertKeyFrame(Frame::Ptr frame);
 
     void insertMapPoint(Feature::Ptr feature);
 
-    std::unordered_map<ulong, Feature::Ptr> getAllMapPoints() const;
+    std::unordered_map<ulong, Feature::Ptr> getAllMapPoints();
+
+    ~Map();
 
 private:
     size_t size_of_sliding_window_ = 10;

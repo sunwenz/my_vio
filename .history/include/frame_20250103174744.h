@@ -1,8 +1,6 @@
 #pragma once
 
 #include "common/commonInclude.h"
-#include "feature.h"
-#include "camera.h"
 
 class Frame{
 public:
@@ -18,8 +16,9 @@ public:
 
     double timestamp() const;
 
-    const cv::Mat& imgLeft() const;
-    const cv::Mat& imgRight() const;
+    cv::Mat imgLeft() const;
+
+    cv::Mat imgRight() const;
 
     SE3 pose() const;
 

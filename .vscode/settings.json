@@ -85,6 +85,7 @@
         "timer": "cpp"
     },
     "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.autocomplete": "default",
     "C_Cpp.formatting": "default",
     "editor.quickSuggestions": {

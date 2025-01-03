@@ -22,11 +22,11 @@ double Frame::timestamp() const{
     return timestamp_;
 }
 
-const cv::Mat& Frame::imgLeft() const{
+cv::Mat Frame::imgLeft() const{
     return img_left_;
 }
 
-const cv::Mat& Frame::imgRight() const{
+cv::Mat Frame::imgRight() const{
     return img_right_;
 }
 

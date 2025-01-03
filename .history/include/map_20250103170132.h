@@ -1,8 +1,6 @@
 #pragma once
 
 #include "common/commonInclude.h"
-#include "frame.h"
-#include "feature.h"
 
 class Map{
 public:
