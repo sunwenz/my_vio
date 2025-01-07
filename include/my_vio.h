@@ -14,7 +14,6 @@ public:
 
     void addNewImage(double t, const cv::Mat& img_left, const cv::Mat& img_right = cv::Mat());
 
-    
 private:
     Frontend::Ptr frontend_;   
     
@@ -24,4 +23,11 @@ private:
 
     size_t num_of_image_;
     std::queue<Frame::Ptr> img_buf_;
+
+    std::mutex imu_buf_mutex_;
+    std::mutex img_buf_mutex_;
+
+    std::thread process_thread_;
+    std::atomic<bool> process_flag_;
+    
 };

@@ -16,6 +16,8 @@ public:
 
     size_t sizeOfSlidingWindow() const;
 
+    size_t numsOfKeyFrames() const;
+
     void insertKeyFrame(Frame::Ptr frame);
 
     void insertMapPoint(Feature::Ptr feature);
@@ -23,7 +25,7 @@ public:
     std::unordered_map<ulong, Feature::Ptr> getAllMapPoints() const;
 
 private:
-    size_t size_of_sliding_window_ = 10;
+    const size_t size_of_sliding_window_ = 10;
     std::mutex map_mutex_;
 
     std::unordered_map<ulong, Feature::Ptr> features_;

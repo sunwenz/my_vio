@@ -3,6 +3,7 @@
         {
             "includePath": [
                 "/usr/include/**",
+                "/usr/local/include/golg/**",
                 "/usr/include/eigen3/",
                 "/usr/local/include/opencv4/opencv2",
                 "/usr/local/include/opencv4",

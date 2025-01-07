@@ -82,7 +82,8 @@
         "executor": "cpp",
         "io_context": "cpp",
         "netfwd": "cpp",
-        "timer": "cpp"
+        "timer": "cpp",
+        "*.ipp": "cpp"
     },
     "C_Cpp.intelliSenseEngine": "default",
     "C_Cpp.errorSquiggles": "enabled",

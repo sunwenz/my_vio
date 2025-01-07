@@ -11,6 +11,7 @@
 #include <map>
 #include <functional>
 #include <thread>
+#include <atomic>
 #include <mutex>
 #include <ctime>
 #include <iomanip>

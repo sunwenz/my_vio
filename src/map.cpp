@@ -9,6 +9,11 @@ size_t Map::sizeOfSlidingWindow() const{
     return size_of_sliding_window_;
 }
 
+size_t Map::numsOfKeyFrames() const{
+    std::unique_lock<std::mutex> lock(map_mutex_);
+    return keyframes_.size();
+}
+
 void Map::insertKeyFrame(Frame::Ptr frame){
     std::unique_lock<std::mutex> lock(map_mutex_);
     keyframes_.push(frame);

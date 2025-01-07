@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/sunwenz/Code/my_vio/build",
-  "command": "/usr/bin/g++   -I/home/sunwenz/Code/my_vio -I/home/sunwenz/Code/my_vio/include -I/home/sunwenz/Code/my_vio/include/common   -Wall -O3 -g -O0 -g   -std=gnu++17 -o CMakeFiles/test.dir/test/test_main.cpp.o -c /home/sunwenz/Code/my_vio/test/test_main.cpp",
+  "command": "/usr/bin/g++ -DGFLAGS_IS_A_DLL=0 -DGLOG_USE_GFLAGS -DGLOG_USE_GLOG_EXPORT -I/home/sunwenz/Code/my_vio -I/home/sunwenz/Code/my_vio/include -I/home/sunwenz/Code/my_vio/include/common -isystem /usr/local/include/opencv4  -Wall -O3 -g -O0 -g -std=gnu++17 -o CMakeFiles/test.dir/test/test_main.cpp.o -c /home/sunwenz/Code/my_vio/test/test_main.cpp",
   "file": "/home/sunwenz/Code/my_vio/test/test_main.cpp"
 }
 ]

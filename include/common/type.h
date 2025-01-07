@@ -10,7 +10,8 @@ using MatXX = Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic>;
 using SE3 = Sophus::SE3d;
 using SO3 = Sophus::SO3d;
 
-struct GNSSData {
+struct GNSS
+{
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
     
     double timestamp_;
